@@ -77,35 +77,37 @@
 </section>
 
         <section id="buy">
-            <select>
-                <option>Matcha Latte</option>
-                <option>Iced Coffee</option>
-                <option>Cappuccino</option>
-                <option>Hot Coffee</option>
-                <option>Iced Tea</option>
-                <option>Espresso</option>
-                <option>Milk Tea</option>
-                <option>Ice Caramel Macchiato</option>
-                <option>Fresh Lemonade</option>
-                <option>Chocolate Drink</option>
+             <select id="drinks">
+                   <option value="90">Matcha Latte</option>
+                   <option value="70">Iced Coffee</option>
+                   <option value="40">Cappuccino</option>
+                   <option value="30">Hot Coffee</option>
+                   <option value="50">Iced Tea</option>
+                   <option value="50">Espresso</option>
+                   <option value="60">Milk Tea</option>
+                   <option value="80">Ice Caramel Macchiato</option>
+                   <option value="50">Fresh Lemonade</option>
+                   <option value="70">Chocolate Drink</option>
             </select>
-                    <input type="number" value="0">
-     
-            <select>
-                <option>Ham Sandwich</option>
-                <option>Tuna Sandwich</option>
-                <option>Chicken Sandwich</option>
-                <option>Garlic Bread</option>
-                <option>Egg Mayo Sandwich</option>
-                <option>Cookies</option>
-                <option>Pancakes</option>
-                <option>Banana Bread</option>
-                <option>Chocolate Muffin</option>
-                <option>Cheese Fries</option>
+                  <input id="drinkQty" type="number" value="0">
+            <select id="foods">
+                  <option value="35">Ham Sandwich</option>
+                  <option value="35">Tuna Sandwich</option>
+                  <option value="60">Chicken Sandwich</option>
+                  <option value="25">Garlic Bread</option>
+                  <option value="40">Egg Mayo Sandwich</option>
+                  <option value="20">Cookies</option>
+                  <option value="30">Pancakes</option>
+                  <option value="35">Banana Bread</option>
+                  <option value="40">Chocolate Muffin</option>
+                  <option value="55">Cheese Fries</option>
             </select>
+            
             <input type="number" value="0">
-        <button onclick="showMessage()">Buy Now!</button>
-<p>Total: ₱0</p>
+            
+                <button onclick="showMessage()">Buy Now!</button>
+                <p id="totalText">Total: ₱0</p>
+            
 </section>
 
         <section id="about">
@@ -129,3 +131,4 @@
         </footer>
 </body>
 </html>
+// kyle //
