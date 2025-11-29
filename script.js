@@ -8,5 +8,5 @@ function showMessage() {
     let total = (drink * drinkQty) + (food * foodQty);
 
     document.getElementById("totalText").innerText = "Total: ₱" + total;
-    alert("Thank you for purchase!\nYour total is ₱" + total);
+    alert("Thank you for purchase!\n\nYour total is ₱" + total);
 }
