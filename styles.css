@@ -97,6 +97,7 @@ p {
 
 select {
     background-color: #997d6a;
+    color: white;
     border-radius: 10px;  
     padding: 5px;
     margin: 0px;
@@ -104,6 +105,7 @@ select {
 
 option {
     background-color: #997d6a;  
+    color: white;
     padding: 5px;
     margin: 0px;
 }
